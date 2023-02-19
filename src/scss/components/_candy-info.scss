@@ -1,0 +1,62 @@
+@import '../variables';
+
+.info {
+  &__container {
+    display: flex;
+    padding: 50px 100px 50px 100px;
+    max-width: 1000px;
+    text-align: justify;
+
+    @media (max-width: 730px) {
+      display: block;
+    }
+  }
+}
+
+.info-block1 {
+  &__image {
+    width: 220px;
+    margin-top: 6px;
+    box-shadow: 0px 0px 5px black;
+
+    @media (max-width: 730px) {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+.info-block2 {
+  margin-left: 50px;
+
+  @media (max-width: 730px) {
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+
+  &__name {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  &__description {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  &__price {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 27px;
+    letter-spacing: 0.015em;
+  }
+}
+
+.download {
+  padding-left: 80px;
+  // justify-content: center;
+}
