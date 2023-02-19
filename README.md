@@ -15,6 +15,3 @@ Made in React
 - React Pagination (пагинация)
 - Lodash.Debounce
 - Code Splitting, React Loadable, useWhyDidYouUpdate
-
-## Preview:
-![Image alt](https://github.com/Candy-Shop/blob/main/Candy%20shop%20Preview.png)
