@@ -17,3 +17,4 @@ Made in React
 - Code Splitting, React Loadable, useWhyDidYouUpdate
 
 ## Preview:
+![Uploading Candy shop Preview.png…]()
